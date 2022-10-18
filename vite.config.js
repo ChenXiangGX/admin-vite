@@ -14,6 +14,7 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
   ],
+  base: './',
   resolve: {
     alias: {
       '@': '/src',
